@@ -22,7 +22,7 @@ public class ListaTarefas {
     public void removerTarefa(String descricao){
         List<Tarefa> tarefasParaRemover = new ArrayList<>();
         for(Tarefa t : tarefaList) {
-            if(t.getDescricao().equalsIgnoreCase(descricao)){
+            if(t.getDescricao().equalsIgnoreCase(descricao)){ 
                 tarefasParaRemover.add(t);
             }
         }
